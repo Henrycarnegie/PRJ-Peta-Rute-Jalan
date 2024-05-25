@@ -1,0 +1,53 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Root Color */
+:root {
+    --primary: #132D46;
+    --Highlight-Effect: #01C38D;
+    --white-text: #F1F1F1;
+    --secondary-background: #646464;
+    --black-text: #000;
+    --bg-CardTransportation: #6884A5;
+    --glassmorp-stroke: rgba(245, 245, 245, 0.30);
+    --glassmorp-fill: linear-gradient(97deg, rgba(237, 237, 237, 0.20) 0%, rgba(212, 212, 212, 0.20) 24.43%, rgba(153, 153, 153, 0.05) 73.29%);
+    --bg-mvp-result: linear-gradient(152deg, #799AB9 0%, #132D46 79.75%);  
+    --PopUp-Daerah: linear-gradient(97deg, rgba(237, 237, 237, 0.20) 0%, rgba(221, 217, 217, 0.20) 99.72%);
+    
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif, italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+html,
+body {
+    background-color: var(--white-text);
+    width: 100%;
+    overflow-x: hidden;
+}
+
