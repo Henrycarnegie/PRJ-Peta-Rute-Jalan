@@ -51,3 +51,128 @@ body {
     overflow-x: hidden;
 }
 
+/* Daerah jakarta */
+
+section, .daerah {
+    padding-top: 40px;
+    background: var(--bg-mvp-result);
+}
+
+.btn_daerah li {
+    display: inline-block;
+    position: relative;
+    right: -85%;
+}
+ul li a {
+    display: block;
+    padding: 10px 10px;
+    color: var(--white-text);
+    border-radius: 10px;
+    border: 1px solid var(--White-Text, #F1F1F1);
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+ul li ul.dropdown li {
+    display: block;
+    border-radius: 10px;
+    border: 1px solid var(--White-Text, #F1F1F1);
+    margin: 1px -47px;
+}
+ul li ul.dropdown {
+    width:auto;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.content_daerah {
+    position: relative;
+    top: 70px;
+    right: 38px;
+    width: 1000px;
+    height: 500px;
+    flex-shrink: 0;
+    background-color: var(--PopUp-Daerah, linear-gradient(97deg, rgba(255, 255, 255, 0.63) 0%, rgb(255, 255, 255) 99.72%));
+    stroke-width: 2px;
+    stroke: var(--glassmorp-stroke);
+    backdrop-filter: blur(500px);
+}
+
+.monas {
+    position: relative;
+    top: -15%;
+   right: -5%;
+}
+
+.title-jakarta {
+    position: relative;
+    top: 4% ;
+    right: 2%;
+    width: 430px;
+    height: 210px;
+    font-size: 18px;
+    color: var(--white-text);
+    text-align: justify;
+    font-family:'Plus Jakarta Sans', sans-serif, italic;
+}
+
+.title-jakarta h1 {
+    text-align: center;
+    position: relative;
+    top: -10px;
+    font-size: 30px;
+}
+
+.title-jakarta span {
+    text-align: justify;
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+}
+
+
+.pilihan {
+    margin-top: 10%;
+}
+
+.text-transportasi {
+    color: var(--White-Text, #F1F1F1);
+    font-family: "Plus Jakarta Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+}
+
+.card_transportasi {
+    display: flex;
+    height: 500px;
+    margin: 20px;
+    overflow: hidden;
+    grid-gap: 30px;
+}
+
+.card_transportasi img {
+  height: 400px;
+  width: 350px;
+  border-radius: 3px;
+}
+
+.card_transportasi h1 {
+    color: var(--white-text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: -10%;
+    right: -5%;
+}
+
