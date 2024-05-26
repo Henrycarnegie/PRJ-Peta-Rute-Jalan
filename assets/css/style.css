@@ -51,3 +51,130 @@ body {
     overflow-x: hidden;
 }
 
+/* Tampilan Awal Homepage*/
+
+section.main-content {
+    background-color: var(--primary);
+    padding-bottom: 20px;
+}
+
+.main-content .text-content {
+    margin-top: 80px;
+}
+
+.main-content .text-content h1 {
+    color: var(--white-text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+.main-content .trans-animation .KRL {
+    background: linear-gradient(116deg, #D28151 0%, #AC382C 25.19%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Plus Jakarta Sans";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.main-content .trans-animation .MRT {
+    background: linear-gradient(117deg, #062371 7.53%, #B11C74 21.68%, #A09EAE 35.82%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Plus Jakarta Sans";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.main-content .trans-animation .LRT {
+    color: #9D231D;
+    font-family: "Plus Jakarta Sans";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.main-content .trans-animation .BUS {
+    background: linear-gradient(116deg, #EB1C1E 0%, #FDC04C 25.19%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Plus Jakarta Sans";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.main-content .trans-animation .Mikrotrans {
+    color: #3A88DE;
+font-family: "Plus Jakarta Sans";
+font-size: 46px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+}
+
+
+.main-content .text-content h3 {
+    color: var(--white-text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.main-content .text-content span {
+    color: var(--white-text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+    letter-spacing: -0.32px;
+    opacity: 45%;
+}
+
+
+.main-content .btn-dest {
+    margin-top: 20px;
+}
+
+.main-content .btn-dest .btn-primary {
+    color: var(--white-text);
+    background-color:#B8B8B8;
+    border-color: #B8B8B8;
+}
+
+.main-content .btn-dest .btn {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.44px;
+    padding: .775rem .975rem;
+    text-align: left;
+    border-radius: 20px;
+    width: 550px;
+}
