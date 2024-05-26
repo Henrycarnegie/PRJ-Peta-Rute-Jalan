@@ -62,7 +62,7 @@ section, .daerah {
 .btn_daerah li {
     display: inline-block;
     position: relative;
-    right: -85%;
+    right: -90%;
 }
 ul li a {
     display: block;
@@ -74,29 +74,14 @@ ul li a {
     text-align: center;
     font-size: 15px;
 }
-ul li ul.dropdown li {
-    display: block;
-    border-radius: 10px;
-    border: 1px solid var(--White-Text, #F1F1F1);
-    margin: 1px -47px;
-}
-ul li ul.dropdown {
-    width:auto;
-    position: absolute;
-    z-index: 999;
-    display: none;
-}
 
-ul li:hover ul.dropdown{
-    display: block;
-}
 
 .content_daerah {
     position: relative;
     top: 70px;
     right: 92px;
-    width: 1100px;
-    height: 600px;
+    width: 1200px;
+    height: 754px;
     flex-shrink: 0;
     border-radius: 10px;
     background: radial-gradient(90.78% 123.38% at 6.01% 8.93%, rgba(149, 149, 149, 0.7) 0%, rgba(92, 92, 92, 0.35) 0.01%, rgba(223, 223, 223, 0.28) 100%);
@@ -107,7 +92,7 @@ ul li:hover ul.dropdown{
 .monas {
     position: relative;
     top: -15%;
-   right: -5%;
+    right: -5%;
 }
 
 .title-jakarta {
@@ -160,15 +145,14 @@ ul li:hover ul.dropdown{
 .card_transportasi {
     position: relative;
     top: 50px;
+    right: 83px;
     display: flex;
-    height: 500px;
+    height: 619px;
     margin: 20px;
-    grid-gap: 30px;
+    grid-gap: 40px;
 }
 
 .card_transportasi img {
-    height: 400px;
-    width: 350px;
     border-radius: 10px;
 }
 
