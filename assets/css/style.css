@@ -51,3 +51,96 @@ body {
     overflow-x: hidden;
 }
 
+/* Daerah jakarta */
+
+.daerah {
+    background: var(--bg-mvp-result);
+}
+
+.btn_daerah li {
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    padding: 10px 10px;
+    color: var(--white-text);
+    border-radius: 10px;
+    border: 1px solid var(--White-Text, #F1F1F1);
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.content_daerah {
+    margin-top: 5%;
+    min-height: 700px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: radial-gradient(90.78% 123.38% at 6.01% 8.93%, rgba(149, 149, 149, 0.7) 0%, rgba(92, 92, 92, 0.35) 0.01%, rgba(223, 223, 223, 0.28) 100%);
+    backdrop-filter: blur(150px);
+    
+}
+
+.monas {
+    margin-top: -8%;
+    overflow: visible;
+
+}
+
+.title-jakarta {
+    color: var(--white-text);
+    text-align: justify;
+    font-family:'Plus Jakarta Sans', sans-serif, italic;
+}
+
+.title-jakarta h1 {
+    color: var(--White-Text, #F1F1F1);
+    font-family: "Plus Jakarta Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    
+}
+
+.title-jakarta h3 {
+    
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.pilihan {
+    background-color: inherit;
+}
+
+section.pilihan .title h1{
+    color: var(--white-text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: normal;
+}
+
+.pilihan .card-transportasi {
+    position: relative;
+}
+
+.pilihan .card-transportasi img {
+    max-height: 450px;
+    width: 90%;
+    border-radius: 5px;
+    filter: brightness(50%);
+}
+
+.pilihan .card-transportasi span {
+    color: var(--white-text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    position: absolute;
+    left: 10%;
+    top: 90%;
+}
+
