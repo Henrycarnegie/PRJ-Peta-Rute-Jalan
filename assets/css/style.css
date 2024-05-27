@@ -56,15 +56,12 @@ body {
 section, .daerah {
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-right: auto;
-    margin-top: auto;
+
     background: var(--bg-mvp-result);
 }
 
 .btn_daerah li {
     display: inline-block;
-    position: relative;
-    right: -96%;
 }
 ul li a {
     display: block;
@@ -79,11 +76,12 @@ ul li a {
 
 
 .content_daerah {
-    position: relative;
-    top: 70px;
-    right: 8%;
-    width: 1350px;
-    height: 810px;
+    margin-top: 5%;
+    margin-left: -105%;
+    display: flex;
+    justify-content:revert;
+    width: 1050px;
+    height: 567px;
     flex-shrink: 0;
     border-radius: 18px;
     background: radial-gradient(90.78% 123.38% at 6.01% 8.93%, rgba(149, 149, 149, 0.7) 0%, rgba(92, 92, 92, 0.35) 0.01%, rgba(223, 223, 223, 0.28) 100%);
@@ -92,33 +90,30 @@ ul li a {
 }
 
 .monas {
-    position: relative;
-    top: -15%;
-    right: -5%;
-    backdrop-filter: blur(100px);
+    margin-left: 6%;
+    margin-top: -4%;
+    overflow: visible;
+
 }
 
 .title-jakarta {
-    position: relative;
-    top: -5% ;
-    right: 11%;
-    width: 433px;
-    height: 200px;
+    padding-top: 250px;
+    margin-left: 88px;
+    width: 33%;
+    height: 10%;
     color: var(--white-text);
     text-align: justify;
     font-family:'Plus Jakarta Sans', sans-serif, italic;
 }
 
 .title-jakarta h1 {
+    margin-left: 97px;
     color: var(--White-Text, #F1F1F1);
     font-family: "Plus Jakarta Sans";
     font-size: 40px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 750;
     line-height: normal;
-    position: relative;
-    top: -10px;
-    right: -114px;
     
 }
 
@@ -126,13 +121,14 @@ ul li a {
     text-align: justify;
     position: relative;
     top: 10px;
-    font-size: 23px;
+    font-size: 20px;
+    font-weight: 400;
     
 }
 
 
 .pilihan {
-    margin-top: 14%;
+    margin-top: 7%;
 }
 
 .text-transportasi {
@@ -146,11 +142,7 @@ ul li a {
 }
 
 .card_transportasi {
-    position: relative;
-    top: 50px;
-    right: 89px;
     display: flex;
-    height: 619px;
     margin: 20px;
     grid-gap: 40px;
 }
@@ -168,7 +160,7 @@ ul li a {
     font-weight: 400;
     line-height: normal;
     position: relative;
-    top: -10%;
-    right: -5%;
+    top: -48px;
+    right: -10px;
 }
 
