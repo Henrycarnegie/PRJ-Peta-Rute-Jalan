@@ -55,7 +55,7 @@ body {
 
 section.main-content {
     background-color: var(--primary);
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 
 .main-content .text-content {
@@ -74,6 +74,10 @@ section.main-content {
     margin-bottom: 5px;
 }
 
+.main-content .trans-animation {
+    margin-top: 90px;
+}
+
 .main-content .trans-animation .KRL {
     background: linear-gradient(116deg, #D28151 0%, #AC382C 25.19%);
     background-clip: text;
@@ -85,6 +89,7 @@ section.main-content {
     font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
+    margin-left: 10px;
 }
 
 .main-content .trans-animation .MRT {
@@ -177,4 +182,81 @@ text-transform: uppercase;
     text-align: left;
     border-radius: 20px;
     width: 550px;
+}
+
+
+
+/* Mengapa memakai kami?*/
+
+section.why-us {
+    background-color: var(--white-text);
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.why-us .backdrop {
+    background-color: var(--primary);
+    padding-top: 80px;
+    border-radius: 15px;
+}
+
+.why-us .content-why h1 {
+    color: var(--white-text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.why-us .content-why span {
+    color: var(--white-text);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.why-us .icon-loc {
+    justify-content: center;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: var(--white-text);
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-right: 130px;
+}
+
+.why-us .icon-transport {
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: var(--white-text);
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-right: 130px;
+}
+
+.why-us .icon-rute {
+    position: static;
+    justify-content: center;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: var(--white-text);
+    border-radius: 20px;
 }
