@@ -223,40 +223,122 @@ section.why-us {
     margin-bottom: 80px;
 }
 
-.why-us .icon-loc {
-    justify-content: center;
+.why-us .tile-group {
     display: flex;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 0;
-    padding-right: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.why-us .input-container {
+    position: relative;
+    height: 7rem;
+    width: 7rem;
+    margin: 0.5rem;
+    margin-right: 50px;
+    margin-left: 35px;
+    transition: all 300ms ease;
+  }
+  
+  
+.why-us .input-container .icon-why {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     background-color: var(--white-text);
     border-radius: 20px;
-    margin-left: 25px;
-    margin-right: 130px;
+    transition: all 300ms ease;
+  }
+
+  
+.why-us .input-container:hover {
+    height: 8rem;
+    width: 8rem;
 }
 
-.why-us .icon-transport {
+.why-us .text-why-loc h2{
+    color: var(--white-text);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: -0.44px;
+}
+
+.why-us .text-why-trans h2{
+    color: var(--white-text);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: -0.44px;
+}
+
+.why-us .text-why-rute h2{
+    color: var(--white-text);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: -0.44px;
+}
+
+.why-us .text-why-loc {
+    display:flex;
     justify-content: center;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.why-us .text-why-trans {
+    display:flex;
+    justify-content: center;
+    margin-left: -15px;
+    margin-top: 25px;
+}
+
+.why-us .text-why-rute {
+    display:flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: -10px;
+}
+
+.why-us .body-why-loc span{
     display: flex;
-    padding-top: 30px;
+    color: var(--white-text);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; 
+    letter-spacing: -0.28px;
     padding-bottom: 30px;
-    padding-left: 0;
-    padding-right: 0;
-    background-color: var(--white-text);
-    border-radius: 20px;
-    margin-left: 25px;
-    margin-right: 130px;
 }
 
-.why-us .icon-rute {
-    position: static;
-    justify-content: center;
+.why-us .body-why-trans span{
     display: flex;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 0;
-    padding-right: 0;
-    background-color: var(--white-text);
-    border-radius: 20px;
+    color: var(--white-text);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; 
+    letter-spacing: -0.28px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.why-us .body-why-rute span{
+    display: flex;
+    color: var(--white-text);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; 
+    letter-spacing: -0.28px;
+    margin-top: 10px;
+    padding-bottom: 30px;
 }
