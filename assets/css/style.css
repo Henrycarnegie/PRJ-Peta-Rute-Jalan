@@ -190,14 +190,33 @@ text-transform: uppercase;
 
 section.why-us {
     background-color: var(--white-text);
-    padding-bottom: 80px;
-    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.why-us .anim-why {
+    background-color: var(--primary);
+    border-radius: 360px;
+    border: 40px solid var(--white-text);
+    height: 680px;
+    width: 680px;
+    position: absolute;
+    margin-left: 50px;
+    display: flex;
+    align-self: last baseline;
+}
+
+.why-us .anim-why img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .why-us .backdrop {
     background-color: var(--primary);
-    padding-top: 80px;
+    padding-top: 130px;
     border-radius: 15px;
+    padding-bottom: 80px;
 }
 
 .why-us .content-why h1 {
@@ -341,4 +360,117 @@ section.why-us {
     letter-spacing: -0.28px;
     margin-top: 10px;
     padding-bottom: 30px;
+}
+
+/* Transportasi Publik*/
+
+section.trans-pub {
+    padding-top: 50px;
+    background-color: var(--white-text);
+}
+
+.trans-pub .title {
+    margin-bottom: 50px;
+}
+
+.trans-pub .title h1 {
+    color: var(--primary);
+    text-align: center;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -1.3px;
+}
+
+.trans-pub .title h2{
+    color: var(--primary);
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.trans-pub .kereta {
+    border-radius: 0px 50px 50px 0px;
+    border: 1px solid var(--Glassmorp-Stroke, rgba(19, 45, 70, 1));
+    background: var(--Glassmorp-Fill, linear-gradient(97deg, rgba(34, 64, 93, 0.9) 0%, rgba(20, 53, 83, 0.9) 24.43%, rgba(19, 45, 70, 1) 73.29%));
+    backdrop-filter: blur(30px);
+    padding-top: 80px;
+    border-radius: 15px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+.trans-pub .kereta .gambar {
+    margin-left: 50px;
+}
+
+.trans-pub .kereta .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.trans-pub .kereta .text h1 {
+    color: var(--white-text);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+    letter-spacing: -0.72px;
+    display: flex;
+    justify-content: center;
+}
+
+.trans-pub .kereta .text span{
+    color: var(--white-text);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    letter-spacing: -0.72px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.trans-pub .kereta .text .btn{
+    margin-top: 20px;
+    border-radius: 25px;
+    background: var(--white-text);
+    border-color: none;
+    color: var(--primary);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 300px;
+}
+
+.trans-pub .kereta .text .btn-primary{
+    border-color: transparent;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    box-shadow: none;
+    border-color: none;
+}
+
+.trans-pub .kereta .text .btn:hover {
+    margin-top: 20px;
+    border-radius: 25px;
+    background: var(--primary);
+    border-color: none;
+    color: var(--Highlight-Effect);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 300px;
 }
