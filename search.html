@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Logo-Website Name -->
+    <link rel="icon" href="assets/images/logo/Logoicon.png">
+    <title>Peta Rute Jalan</title>
+
+    <!-- CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Font Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <div class="input-group">
+                <input type="text" id="halte" placeholder="Halte TransJakarta Juanda" class="form-control">
+            </div>
+            <div class="input-group">
+                <input type="text" id="tujuan" placeholder="Tujuan" class="form-control">
+            </div>
+            <button onclick="searchRoute()" class="btn btn-primary btn-sm">Cari Rute</button>
+            <div class="images">
+                <img id="busImage" src="assets/images/transportasi/bus.jpg" class="img-fluid" alt="Kereta">
+            </div>
+            <div id="search-results"></div>
+        </div>
+        
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.4065880218997!2d106.82832931528112!3d-6.170258995527024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5e900000001%3A0x776885e5e0b1b9c3!2sHalte%20TransJakarta%20Juanda!5e0!3m2!1sen!2sid!4v1627896158984!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <script>
+        function searchRoute() {
+            const halte = document.getElementById('halte').value;
+            const tujuan = document.getElementById('tujuan').value;
+            
+            if (halte && tujuan) {
+                const busImage = document.getElementById('busImage');
+                const searchResults = document.getElementById('search-results');
+                
+                // Adjust the result frame width to match the bus image width
+                const resultFrame = document.createElement('div');
+                resultFrame.className = 'result-frame';
+                resultFrame.style.width = `${busImage.clientWidth}px`;
+                
+                resultFrame.innerHTML = `
+                    <div class="route-path">
+                        <div class="left">
+                            <img src="assets/images/logo/walk.png" alt="Walk" style="height: 30px;"> 
+                            <span>M2</span>
+                        </div>
+                        <div class="left">
+                            <span>-></span>
+                        </div>
+                        <div class="left">
+                            <img src="assets/images/logo/train.jpg" alt="Train" style="height: 30px;"> 
+                            <span>M1/1</span>
+                        </div>
+                        <div class="right">
+                            <p class="train-info">Kereta: <strong>Depok/Bogor</strong></p>
+                            <p><span>Juanda - Bundaran HI</span></p>
+                            <p><span>IDR: ???</span></p>
+                        </div>
+                    </div>
+                `;
+
+                
+                // Append the result frame to the search results div
+                searchResults.innerHTML = ''; // Clear previous results
+                searchResults.appendChild(resultFrame);
+            }
+        }
+    </script>
+</body>
+</html>
