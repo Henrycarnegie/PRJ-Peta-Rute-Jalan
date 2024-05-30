@@ -57,11 +57,11 @@ body {
     background: var(--bg-mvp-result);
 }
 
-.btn_daerah li {
+.daerah .btn_daerah li {
     display: inline-block;
 }
 
-ul li a {
+.daerah .btn_daerah ul li a {
     display: block;
     padding: 10px 10px;
     color: var(--white-text);
@@ -72,7 +72,7 @@ ul li a {
     font-size: 15px;
 }
 
-.content_daerah {
+.daerah .content_daerah {
     margin-top: 5%;
     min-height: 700px;
     border-top-right-radius: 20px;
@@ -82,19 +82,19 @@ ul li a {
     
 }
 
-.monas {
+.daerah .content_daerah .monas {
     margin-top: -8%;
     overflow: visible;
 
 }
 
-.title-jakarta {
+.daerah .content_daerah .title-jakarta {
     color: var(--white-text);
     text-align: justify;
     font-family:'Plus Jakarta Sans', sans-serif, italic;
 }
 
-.title-jakarta h1 {
+.daerah .content_daerah .title-jakarta h1 {
     color: var(--White-Text, #F1F1F1);
     font-family: "Plus Jakarta Sans";
     font-size: 40px;
@@ -104,17 +104,11 @@ ul li a {
     
 }
 
-.title-jakarta h3 {
-    
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.pilihan {
+.daerah .pilihan {
     background-color: inherit;
 }
 
-section.pilihan .title h1{
+.daerah .pilihan .title h1{
     color: var(--white-text);
     font-family: "Plus Jakarta Sans";
     font-size: 40px;
@@ -142,11 +136,6 @@ section.pilihan .title h1{
     position: absolute;
     left: 10%;
     top: 90%;
-}
-
-body {
-    margin: 0;
-    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 #container {
@@ -180,12 +169,6 @@ body {
     border: none;
     border-radius: 5px;
 }
-
-/* .images {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} */
 
 .image-container {
     position: relative;
@@ -264,4 +247,79 @@ body {
 
 .images {
     margin-top: 10px; 
+}
+
+/* About us */
+
+section.about_us {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about_us .logo {
+    position: fixed;
+    top: 12%;
+}
+
+.about_us .bg-logo {
+    position: absolute;
+    width: 530px;
+    height: 530px;
+    z-index: 1;
+    flex-shrink: 0;
+    border-radius: 300px;
+    background: linear-gradient(180deg, rgba(1, 195, 141, 0.10) 0%, rgba(1, 195, 141, 0.45) 20%, rgba(1, 195, 141, 0.80) 80%), #01C38D;
+    filter: blur(100px);
+}
+
+.about_us .logo-img {
+    position: absolute;
+    z-index: 2;
+}
+
+@media (max-width: 960px) {
+    .about_us .logo-img {
+        height: 300px;
+    }
+    .about_us .bg-logo {
+        max-width: 310px;
+        max-height: 310px;
+    }
+    .about_us .logo {
+        top: 30%;
+    }
+}
+
+@media (max-width: 576px) {
+    .about_us .bg-logo {
+        max-width: 145px;
+        max-height: 145px;
+    }
+    .about_us .logo {
+        top: 41%;
+    }
+}
+
+@media (max-width: 430px) {
+    .about_us .logo {
+        top: 44%;
+    }
+}
+
+.about_us .title-about {
+    margin-top: 28px;
+    height: 300px;
+    background-color: var(--primary);
+}
+
+.about_us .text1 h2 {
+    color: #FFF;
+    text-align: center; 
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 650;
+    line-height: normal;
 }
