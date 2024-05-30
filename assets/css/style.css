@@ -55,7 +55,7 @@ body {
 
 section.main-content {
     background-color: var(--primary);
-    padding-bottom: 80px;
+    padding-bottom: 120px;
 }
 
 .main-content .text-content {
@@ -156,8 +156,6 @@ text-transform: uppercase;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 160%; 
-    letter-spacing: -0.32px;
     opacity: 45%;
 }
 
@@ -173,17 +171,22 @@ text-transform: uppercase;
 }
 
 .main-content .btn-dest .btn {
-    font-size: 22px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 600;
-    line-height: 100%;
-    letter-spacing: -0.44px;
     padding: .775rem .975rem;
     text-align: left;
     border-radius: 20px;
     width: 550px;
 }
 
+.main-content .background-anim .slide-pict{
+    position: absolute; 
+    top: -80px;
+    right: -120px; 
+    width: 45%; 
+    height: 90%; 
+}
 
 
 /* Mengapa memakai kami?*/
@@ -216,7 +219,7 @@ section.why-us {
     background-color: var(--primary);
     padding-top: 130px;
     border-radius: 15px;
-    padding-bottom: 80px;
+    padding-bottom: 280px;
 }
 
 .why-us .content-why h1 {
@@ -281,8 +284,7 @@ section.why-us {
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; 
-    letter-spacing: -0.44px;
+
 }
 
 .why-us .text-why-trans h2{
@@ -290,8 +292,7 @@ section.why-us {
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; 
-    letter-spacing: -0.44px;
+
 }
 
 .why-us .text-why-rute h2{
@@ -299,29 +300,35 @@ section.why-us {
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; 
-    letter-spacing: -0.44px;
+
 }
 
 .why-us .text-why-loc {
     display:flex;
     justify-content: center;
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-self: center;
 }
 
 .why-us .text-why-trans {
     display:flex;
     justify-content: center;
-    margin-left: -15px;
+    margin-left: 25px;
     margin-top: 25px;
+    text-align: center;
+    align-self: center;
 }
 
 .why-us .text-why-rute {
     display:flex;
     justify-content: center;
     margin-top: 25px;
-    margin-left: -10px;
+    margin-left: 25px;
+    text-align: center;
+    align-self: center;
 }
 
 .why-us .body-why-loc span{
@@ -331,8 +338,7 @@ section.why-us {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 175%; 
-    letter-spacing: -0.28px;
+
     padding-bottom: 30px;
 }
 
@@ -343,8 +349,7 @@ section.why-us {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 175%; 
-    letter-spacing: -0.28px;
+
     margin-top: 20px;
     padding-bottom: 30px;
 }
@@ -356,8 +361,7 @@ section.why-us {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 175%; 
-    letter-spacing: -0.28px;
+
     margin-top: 10px;
     padding-bottom: 30px;
 }
@@ -367,6 +371,7 @@ section.why-us {
 section.trans-pub {
     padding-top: 50px;
     background-color: var(--white-text);
+    padding-bottom: 30px;
 }
 
 .trans-pub .title {
@@ -379,8 +384,7 @@ section.trans-pub {
     font-size: 65px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
-    letter-spacing: -1.3px;
+
 }
 
 .trans-pub .title h2{
@@ -421,8 +425,7 @@ section.trans-pub {
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
-    line-height: 150%; 
-    letter-spacing: -0.72px;
+
     display: flex;
     justify-content: center;
 }
@@ -432,8 +435,6 @@ section.trans-pub {
     font-size: 36px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; 
-    letter-spacing: -0.72px;
     display: flex;
     justify-content: center;
     margin-top: 15px;
@@ -474,3 +475,69 @@ section.trans-pub {
     line-height: normal;
     width: 300px;
 }
+
+/* Transportasi Punlik */
+
+/* Footer */
+
+section.footer {
+    background-color: var(--primary);
+    padding-top: 50px;
+    padding-bottom:30px;
+}
+
+.footer .title h1 {
+    color: var(--Highlight-Effect);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.footer .title h2 {
+    color: var(--Highlight-Effect);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer .btn-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .btn-footer .btn {
+    margin: 30px;
+    width: 150px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    color: var(--Highlight-Effect);
+    font-style: normal;
+    font-weight: 700;
+    background: var(--Glassmorp-Fill, linear-gradient(97deg, rgba(80, 97, 114, 0.9) 0%, rgba(20, 53, 83, 0.9) 24.43%, rgba(19, 45, 70, 1) 73.29%));
+    border-color: rgba(213, 210, 210, 0.185);
+}
+
+.copyright{
+    background-color: var(--white-text);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.copyright span{
+    color: var(--Highlight-Effect);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Footer */
