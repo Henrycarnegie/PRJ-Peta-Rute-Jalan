@@ -526,6 +526,22 @@ section.footer {
     border-color: rgba(213, 210, 210, 0.185);
 }
 
+.footer .btn-footer .btn:hover {
+    margin: 30px;
+    width: 150px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    color: var(--white-text);
+    font-style: normal;
+    font-weight: 700;
+    background: var(--Highlight-Effect);
+    border-color: rgba(213, 210, 210, 0.185);
+}
+
+
 .copyright{
     background-color: var(--white-text);
     display: flex;
