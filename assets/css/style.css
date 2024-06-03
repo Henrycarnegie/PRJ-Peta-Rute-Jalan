@@ -55,7 +55,8 @@ body {
 
 section.main-content {
     background-color: var(--primary);
-    padding-bottom: 120px;
+    padding: 140px 0px 180px;
+    overflow: hidden;
 }
 
 .main-content .text-content {
@@ -182,10 +183,10 @@ text-transform: uppercase;
 
 .main-content .background-anim .slide-pict{
     position: absolute; 
-    top: -80px;
-    right: -120px; 
-    width: 45%; 
-    height: 90%; 
+    top: -10%;
+    right: -10%; 
+    width: 50%; 
+    height: 85%; 
 }
 
 
