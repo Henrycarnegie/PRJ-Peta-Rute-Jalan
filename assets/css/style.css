@@ -831,3 +831,50 @@ section.about_us {
     font-weight: 650;
     line-height: normal;
 }
+
+
+/* Landing Page Kereta */
+
+section.landingkereta {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background-image: url(../images/background/landingkereta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.landingkereta .title {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.landingkereta .title h1{
+    color: var(--white-text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.landingkereta .card {
+    border: none;
+    border-radius: 20px;
+
+}
+
+.landingkereta .title span {
+    color: var(--white-text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.landingkereta .card-transportasi {
+    margin-bottom: 25px;
+}
