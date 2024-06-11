@@ -831,3 +831,39 @@ section.about_us {
     font-weight: 650;
     line-height: normal;
 }
+
+
+/* landing BUS */
+section.landing_bus {
+    background-image: url(../images/transportasi/bg-bus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;         
+}
+
+.text_bus {
+    position: relative;
+    top: 100px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 850;
+    line-height: 100px; 
+    color: var(--black-text);
+    
+}
+
+.text_bus h1 {
+    font-size: 75px;
+}
+
+.text_bus h3 {
+    font-size: 30px;
+}
+
+.grid_bus {
+    position: relative;
+    top: 30px;
+    margin: 7.2%;
+}
+
+/* landing BUS */
