@@ -832,6 +832,75 @@ section.about_us {
     line-height: normal;
 }
 
+/* Landing Page Kereta */
+
+section.landingkereta {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background-image: url(../images/background/landingkereta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.landingkereta .title {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.landingkereta .title h1{
+    color: var(--white-text);
+    font-family: "Plus Jakarta Sans";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.landingkereta .card {
+    border: transparent;
+    border-radius: 20px;
+}
+
+.landingkereta .bg-dark {
+    background-color: transparent !important;
+
+}
+
+.landingkereta .title span {
+    color: var(--white-text);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.landingkereta .card-transportasi {
+    margin-bottom: 25px;
+    
+}
+
+.landingkereta .card-transportasi .card p {
+    color: var(--white-text);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    align-items: end;
+    display: flex;
+    padding-left: 5px;
+}
+
+.landingkereta .card-img-overlay {
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.landingkereta .card-text {
+    margin-bottom: 0; 
+}
 
 /* landing BUS */
 section.landing_bus {
