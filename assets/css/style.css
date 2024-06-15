@@ -936,3 +936,52 @@ section.landing_bus {
 }
 
 /* landing BUS */
+
+/* landing mikrotrans */
+section.landing_mikrotrans {
+    background-image: url(../images/transportasi/Background\ mikrotrans.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;         
+}
+
+.text_mikrotrans {
+    position: relative;
+    top: 100px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 850;
+    line-height: 100px; 
+    color: var(--black-text);
+    
+}
+
+.text_mikrotrans h1 {
+    font-size: 75px;
+}
+
+.text_mikrotrans h3 {
+    font-size: 30px;
+}
+
+.grid_mikrotrans {
+    position: relative;
+    top: 45px;
+    margin: 5.5%;   
+}
+
+.grid_mikrotrans h4 {
+    font-size: 20px;
+    color: #eaeaea;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;   
+    font-weight: 850;  
+    position: relative;
+    top: -55px;
+    right: -30px;    
+
+}
+
+/* landing BUS */
+
+
